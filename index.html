@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Reestar - Delicious cakes and desserts made with love.">
+
+    <title>Reestar | Delicious Cakes & Desserts</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header" id="home">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Reestar<span></span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="nav-actions">
+
+                <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">
+                    🌙
+                </button>
+
+                <button class="cart-btn" id="cartBtn">
+                    🛒
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-tag">
+                    Freshly Baked With Love ❤️
+                </span>
+
+                <h1>
+                    Happiness is just
+                    <span>a cake away.</span>
+                </h1>
+
+                <p>
+                    Discover delicious cakes and desserts made with
+                    fresh ingredients and a whole lot of love.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu" class="primary-btn">
+                        Explore Menu →
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-decoration">
+                <img src="cake-hero.png" alt="Delicious chocolate cake">
+            </div>
+
+        </section>
+
+    </header>
+
+
+
+    <!-- ================= MENU ================= -->
+
+    <main>
+
+        <section class="menu-section" id="menu">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    OUR SPECIALS
+                </span>
+
+                <h2>
+                    Delicious <span>Menu</span>
+                </h2>
+
+                <p>
+                    Treat yourself to something sweet and delicious.
+                </p>
+
+            </div>
+
+
+
+            <!-- SEARCH -->
+
+            <div class="menu-controls">
+
+                <div class="search-box">
+
+                    <span>🔎</span>
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search cakes..."
+                    >
+
+                </div>
+
+
+                <div class="category-buttons">
+
+                    <button class="category-btn active" data-category="all">
+                        All
+                    </button>
+
+                    <button class="category-btn" data-category="cake">
+                        Cakes
+                    </button>
+
+                    <button class="category-btn" data-category="chocolate">
+                        Chocolate
+                    </button>
+
+                    <button class="category-btn" data-category="icecream">
+                        Ice Cream
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PRODUCTS -->
+
+            <div class="products" id="products">
+
+
+                <!-- PRODUCT 1 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Fudge Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="pexels-photo-4110007.jpeg"
+                            alt="Chocolate Fudge Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Fudge Cake
+                        </h3>
+
+                        <p>
+                            Rich and moist chocolate cake covered with
+                            silky fudge frosting and chocolate drizzle.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Fudge Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 2 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Ice Cream Delight"
+                    data-category="icecream chocolate cake"
+                    data-price="550"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="pexels-polina-tankilevitch-4109996.jpg"
+                            alt="Chocolate Ice Cream Delight"
+                        >
+
+                        <span class="product-badge">
+                            Bestseller
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.8)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Ice Cream Delight
+                        </h3>
+
+                        <p>
+                            Soft chocolate cake layered with creamy
+                            vanilla ice cream and a delicious chocolate topping.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹550</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="2"
+                                data-name="Chocolate Ice Cream Delight"
+                                data-price="550"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 3 -->
+
+                <article
+                    class="product-card"
+                    data-name="Vanilla Choco Cheesecake"
+                    data-category="cake"
+                    data-price="500"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="premium_photo-1690214491960-d447e38d0bd0.jpeg"
+                            alt="Vanilla Choco Cheesecake"
+                        >
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.7)</span>
+                        </div>
+
+                        <h3>
+                            Vanilla Choco Cheesecake
+                        </h3>
+
+                        <p>
+                            Smooth vanilla cheesecake finished with
+                            a generous layer of rich chocolate sauce.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹500</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="3"
+                                data-name="Vanilla Choco Cheesecake"
+                                data-price="500"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 4 -->
+
+                <article
+                    class="product-card"
+                    data-name="Classic Chocolate Truffle"
+                    data-category="chocolate cake"
+                    data-price="600"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="premium_photo-1670445426823-db5647af73ff.jpeg"
+                            alt="Classic Chocolate Truffle"
+                        >
+
+                        <span class="product-badge">
+                            Chef's Pick
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(5.0)</span>
+                        </div>
+
+                        <h3>
+                            Classic Chocolate Truffle
+                        </h3>
+
+                        <p>
+                            Decadent chocolate cake layered with creamy
+                            truffle filling and a glossy chocolate finish.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹600</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="4"
+                                data-name="Classic Chocolate Truffle"
+                                data-price="600"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 5 -->
+
+                <article
+                    class="product-card"
+                    data-name="Dark Chocolate Dream"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p1.jpg"
+                            alt="Dark Chocolate Dream"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Dark Chocolate Dream
+                        </h3>
+
+                        <p>
+                            Intense dark chocolate cake with smooth
+                            ganache and delicate chocolate shavings.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Dark Chocolate Dream"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 6 -->
+
+                <article
+                    class="product-card"
+                    data-name="Belgian Chocolate Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p2.jpg"
+                            alt="Belgian Chocolate Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Belgian Chocolate Cake
+                        </h3>
+
+                        <p>
+                            Moist chocolate sponge paired with luxurious
+                            Belgian chocolate cream for a rich taste.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Belgian Chocolate Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 7 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Crunch Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p3.jpg"
+                            alt="Chocolate Crunch Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Crunch Cake
+                        </h3>
+
+                        <p>
+                            Soft chocolate layers combined with crunchy
+                            chocolate pieces and creamy frosting.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Crunch Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 8 -->
+
+                <article
+                    class="product-card"
+                    data-name="Double Chocolate Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p4.jpg"
+                            alt="Double Chocolate Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Double Chocolate Cake
+                        </h3>
+
+                        <p>
+                            A rich chocolate sponge filled and coated
+                            with smooth double chocolate cream.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Double Chocolate Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 9 -->
+
+                <article
+                    class="product-card"
+                    data-name="Choco Hazelnut Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p5.jpg"
+                            alt="Choco Hazelnut Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Choco Hazelnut Cake
+                        </h3>
+
+                        <p>
+                            Delicious chocolate cake blended with creamy
+                            hazelnut filling and a chocolate glaze.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Choco Hazelnut Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 10 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Caramel Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p6.jpg"
+                            alt="Chocolate Caramel Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Caramel Cake
+                        </h3>
+
+                        <p>
+                            Moist chocolate cake topped with creamy
+                            caramel and rich chocolate frosting.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Caramel Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 11 -->
+
+                <article
+                    class="product-card"
+                    data-name="Classic Cocoa Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p7.jpg"
+                            alt="Classic Cocoa Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Classic Cocoa Cake
+                        </h3>
+
+                        <p>
+                            Soft cocoa-flavored cake finished with smooth
+                            chocolate cream and a light chocolate drizzle.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Classic Cocoa Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 12 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Cream Delight"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p8.jpg"
+                            alt="Chocolate Cream Delight"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Cream Delight
+                        </h3>
+
+                        <p>
+                            Fluffy chocolate sponge layered with fresh
+                            chocolate cream for a perfectly balanced bite.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Cream Delight"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 13 -->
+
+                <article
+                    class="product-card"
+                    data-name="Premium Choco Velvet"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p9.jpg"
+                            alt="Premium Choco Velvet"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Premium Choco Velvet
+                        </h3>
+
+                        <p>
+                            Luxurious chocolate velvet cake with silky
+                            frosting and a smooth, rich chocolate finish.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Premium Choco Velvet"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 14 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Ganache Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p10.jpg"
+                            alt="Chocolate Ganache Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Ganache Cake
+                        </h3>
+
+                        <p>
+                            Moist chocolate cake covered in glossy ganache
+                            and finished with elegant chocolate curls.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Ganache Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 15 -->
+
+                <article
+                    class="product-card"
+                    data-name="Triple Chocolate Treat"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p11.jpg"
+                            alt="Triple Chocolate Treat"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Triple Chocolate Treat
+                        </h3>
+
+                        <p>
+                            A chocolate lover's delight featuring rich
+                            sponge, creamy filling, and decadent topping.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Triple Chocolate Treat"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 16 -->
+
+                <article
+                    class="product-card"
+                    data-name="Signature Reestar Chocolate Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p12.jpg"
+                            alt="Signature Reestar Chocolate Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Signature Reestar Chocolate Cake
+                        </h3>
+
+                        <p>
+                            Our signature chocolate cake made with soft
+                            layers, creamy frosting, and premium chocolate.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Signature Reestar Chocolate Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 17 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Choco Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p13.jpg"
+                            alt="Chocolate Choco Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Choco Cake
+                        </h3>
+
+                        <p>
+                            Rich chocolate cake with a smooth,
+                            creamy chocolate topping.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Choco Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 18 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Choco Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p14.jpg"
+                            alt="Chocolate Choco Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Choco Cake
+                        </h3>
+
+                        <p>
+                            Rich chocolate cake with a smooth,
+                            creamy chocolate topping.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Choco Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 19 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Choco Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p15.jpg"
+                            alt="Chocolate Choco Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Choco Cake
+                        </h3>
+
+                        <p>
+                            Rich chocolate cake with a smooth,
+                            creamy chocolate topping.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Choco Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PRODUCT 20 -->
+
+                <article
+                    class="product-card"
+                    data-name="Chocolate Choco Cake"
+                    data-category="chocolate cake"
+                    data-price="450"
+                >
+
+                    <div class="product-image">
+
+                        <img
+                            src="p16.jpg"
+                            alt="Chocolate Choco Cake"
+                        >
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button
+                            class="favorite-btn"
+                            aria-label="Add to favorites"
+                        >
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(4.9)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Choco Cake
+                        </h3>
+
+                        <p>
+                            Rich chocolate cake with a smooth,
+                            creamy chocolate topping.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>₹450</strong>
+
+                            <button
+                                class="order-btn"
+                                data-id="1"
+                                data-name="Chocolate Choco Cake"
+                                data-price="450"
+                            >
+                                Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+
+            <div class="no-results" id="noResults">
+
+                <span>😔</span>
+
+                <h3>No cakes found</h3>
+
+                <p>
+                    Try searching for something else.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-image">
+                🍰
+            </div>
+
+            <div class="about-content">
+
+                <span class="section-label">
+                    ABOUT REESTAR
+                </span>
+
+                <h2>
+                    Made with love,
+                    <span>served with happiness.</span>
+                </h2>
+
+                <p>
+                    At Reestar, we believe every celebration deserves
+                    something delicious. Our cakes are prepared using
+                    carefully selected ingredients and freshly baked
+                    to give you the perfect taste.
+                </p>
+
+                <div class="about-stats">
+
+                    <div>
+                        <strong>10+</strong>
+                        <span>Flavours</span>
+                    </div>
+
+                    <div>
+                        <strong>5K+</strong>
+                        <span>Happy Customers</span>
+                    </div>
+
+                    <div>
+                        <strong>4.9</strong>
+                        <span>Customer Rating</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    GET IN TOUCH
+                </span>
+
+                <h2>
+                    Contact <span>Us</span>
+                </h2>
+
+                <p>
+                    Have a question or want to place an order?
+                    Send us a message.
+                </p>
+
+            </div>
+
+
+
+            <form class="contact-form" id="contactForm">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                        >
+
+                        <small
+                            class="error-message"
+                            id="nameError"
+                        ></small>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                        >
+
+                        <small
+                            class="error-message"
+                            id="emailError"
+                        ></small>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Write your message..."
+                    ></textarea>
+
+                    <small
+                        class="error-message"
+                        id="messageError"
+                    ></small>
+
+                </div>
+
+
+
+                <button type="submit" class="submit-btn">
+                    Send Message →
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+
+                <a href="#home" class="logo">
+                    Reestar<span>.</span>
+                </a>
+
+                <p>
+                    Delicious moments, one slice at a time.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Reestar. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ================= CART SIDEBAR ================= -->
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-sidebar" id="cartSidebar">
+
+        <div class="cart-header">
+
+            <h2>
+                Your Cart 🛒
+            </h2>
+
+            <button id="closeCart" class="close-btn">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems">
+
+            <div class="empty-cart">
+
+                <span>🛒</span>
+
+                <h3>
+                    Your cart is empty
+                </h3>
+
+                <p>
+                    Add some delicious cakes!
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="total-row">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cartTotal">
+                    ₹0
+                </strong>
+
+            </div>
+
+
+            <button
+                class="checkout-btn"
+                id="checkoutBtn"
+            >
+                Place Order
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- TOAST -->
+
+    <div class="toast" id="toast">
+
+        <span>✓</span>
+
+        <p id="toastMessage">
+            Added to cart!
+        </p>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
